@@ -20,7 +20,7 @@ Right now we are focusing on
 
 We intend to support the full [Schema.org Person schema](http://schema.org/Person). The Full Name and Profile Picture is stored in IPFS as a JSON structure that corresponds to the schema.org schema:
 
-```
+```json
 {
    "@context": "http://schema.org/",
    "@type": "Person",
